@@ -97,8 +97,18 @@ switch(event.message.type){
 					"actions": [
 					  {
 						"type": "message",
-						"label": "第一個按鈕",
-						"text": "1"
+						"label": "帳戶餘額查詢",
+						"text": "CTWDABAQU"
+					  },
+					  {
+						"type": "message",
+						"label": "交易明細查詢",
+						"text": "CTWDATXQU"
+					  },
+					  {
+						"type": "message",
+						"label": "定存明細查詢",
+						"text": "CTWDATDQU"
 					  }
 					]
 				  }
