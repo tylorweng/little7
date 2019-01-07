@@ -63,38 +63,48 @@ switch(event.message.type){
 		
 		
 		
-		case '編碼':
+		case '存匯服務':
 		
 		return event.reply(
 			message = {
-  "type": "template",
-  "altText": "在不支援顯示樣板的地方顯示的文字",
-  "template": {
-    "type": "carousel",
-    "columns": [
-      {
-        "text": "第一組標題",
-        "actions": [
-          {
-            "type": "message",
-            "label": "第一個按鈕",
-            "text": "1"
-          }
-        ]
-      },
-      {
-        "text": "第二組標題",
-        "actions": [
-          {
-            "type": "message",
-            "label": "第一個按鈕",
-            "text": "1"
-          }
-        ]
-      }
-    ]
-  }
-});
+			"type": "template",
+			"altText": "請查看手機",
+			"template": {
+				"type": "carousel",
+				"columns": [
+				  {
+					"text": "存款查詢",
+					"actions": [
+					  {
+						"type": "message",
+						"label": "帳戶餘額查詢",
+						"text": "CTWDABAQU"
+					  },
+					  {
+						"type": "message",
+						"label": "交易明細查詢",
+						"text": "CTWDATXQU"
+					  },
+					  {
+						"type": "message",
+						"label": "定存明細查詢",
+						"text": "CTWDATDQU"
+					  }
+					]
+				  },
+				  {
+					"text": "第二組標題",
+					"actions": [
+					  {
+						"type": "message",
+						"label": "第一個按鈕",
+						"text": "1"
+					  }
+					]
+				  }
+				]
+			  }
+			});
 	
 			break;	
 		
