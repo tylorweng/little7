@@ -1,4 +1,4 @@
-//GIB
+//齊齊帶你愛運動
 
 var request = require("request");
 var cheerio = require("cheerio");
@@ -24,7 +24,7 @@ app.post('/linewebhook', linebotParser);
 
 //每當server啟動，或是重build時，發送給自己的訊息
 setTimeout(function(){
-    var userId = 'Ufc301832dd245e99bbccf32b2cc0abd8';
+    var userId = 'U087e7ce49ad11b0bdbc68a240e6d8108';
     var sendMsg = 'server啟動惹';
     bot.push(userId,sendMsg);
     console.log('send: '+sendMsg);
@@ -42,25 +42,16 @@ switch(event.message.type){
 
 		//純文字區	
 		case '安安':
-			event.reply('安安 你好 幾歲 住哪?');
-			break;
-		}
-		
-		
-//存匯服務
-		
-		//存款查詢
-		case '帳戶餘額查詢':
-			event.reply('CTWDABAQU');
-			break;
-		}
-		case '交易明細查詢':
-			event.reply('CTWDATXQU');
-			break;
-		}
-		
 
-		
+			event.reply('安安 你好 幾歲 住哪?');
+
+			break;
+
+
+			
+			
+
+		}
 	break;
 
 	
