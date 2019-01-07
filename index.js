@@ -47,9 +47,78 @@ switch(event.message.type){
 
 			break;
 
+	//存款查詢
+		case '帳戶餘額查詢':
+			event.reply('CTWDABAQU');
+			break;
+		
+		case '交易明細查詢':
+			event.reply('CTWDATXQU');
+			break;
+		
+		case '定存明細查詢':
+			event.reply('CTWDATDQU');
+			break;
+		
+		
+		
+		
+		case '編碼':
+		
+		return event.reply(
+			message = {
+  "type": "template",
+  "altText": "在不支援顯示樣板的地方顯示的文字",
+  "template": {
+    "type": "carousel",
+    "columns": [
+      {
+        "text": "第一組標題",
+        "actions": [
+          {
+            "type": "message",
+            "label": "第一個按鈕",
+            "text": "1"
+          }
+        ]
+      },
+      {
+        "text": "第二組標題",
+        "actions": [
+          {
+            "type": "message",
+            "label": "第一個按鈕",
+            "text": "1"
+          }
+        ]
+      }
+    ]
+  }
+});
+	
+			break;	
+		
 
-			
-			
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
 
 		}
 	break;
