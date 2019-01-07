@@ -42,12 +42,72 @@ switch(event.message.type){
 
 		//純文字區	
 		case '安安':
-
 			event.reply('安安 你好 幾歲 住哪?');
+			break;
+		}
+		
+		
+//存匯服務
+		
+		//存款查詢
+		case '帳戶餘額查詢':
+			event.reply('CTWDABAQU');
+			break;
+		}
+		case '交易明細查詢':
+			event.reply('CTWDATXQU');
+			break;
+		}
+		
+		
+	
 
+case '編號':
+		
+		return event.reply(
+			
+		message = {
+		  "type": "template",
+		  "altText": "在不支援顯示樣板的地方顯示的文字",
+		  "template": {
+			"type": "carousel",
+			"columns": [
+			  {
+				"text": "第一組標題",
+				"actions": [
+				  {
+					"type": "message",
+					"label": "第一個按鈕",
+					"text": "1"
+				  }
+				]
+			  },
+			  {
+				"text": "第二組標題",
+				"actions": [
+				  {
+					"type": "message",
+					"label": "第一個按鈕",
+					"text": "1"
+				  }
+				]
+			  }
+			]
+		  }
+		}
+			
+			
+			);
+	
 			break;
 
-		}
+
+
+
+	
+		
+		
+		
 	break;
 
 	
