@@ -122,7 +122,110 @@ switch(event.message.type){
 
 
 
-
+	case '台幣相關批次':
+		
+		return event.reply(
+			message = {
+			"type": "template",
+			"altText": "請查看手機",
+			"template": {
+				"type": "carousel",
+				"columns": [
+				  {
+					"text": "台幣相關",
+					"actions": [
+					  {
+						"type": "message",
+						"label": "臺幣單筆付款預約到期1-10扣",
+						"text": "臺幣單筆付款預約到期1-10扣 : BTWTPTRTATW"
+					  },
+					  {
+						"type": "message",
+						"label": "臺幣單筆付款未明交易retry",
+						"text": "臺幣單筆付款未明交易retry : BTWTPTXCHTW"
+					  },
+					  {
+						"type": "message",
+						"label": "臺幣整批付款預約到期1-10扣",
+						"text": "臺幣整批付款預約到期1-10扣 : BTWTPBRTATW"
+					  },
+					  {
+						"type": "message",
+						"label": "",
+						"text": ""
+					  },
+					  {
+						"type": "message",
+						"label": "",
+						"text": ""
+					  },
+					  {
+						"type": "message",
+						"label": "",
+						"text": ""
+					  },
+					  {
+						"type": "message",
+						"label": "",
+						"text": ""
+					  },
+					  {
+						"type": "message",
+						"label": "",
+						"text": ""
+					  }
+					]
+				  },
+				  {
+					"text": "繳稅費相關",
+					"actions": [
+					  {
+						"type": "message",
+						"label": "臺幣單筆付款預約到期1-10扣",
+						"text": "臺幣單筆付款預約到期1-10扣 : BTWTPTRTATW"
+					  },
+					  {
+						"type": "message",
+						"label": "臺幣單筆付款未明交易retry",
+						"text": "臺幣單筆付款未明交易retry : BTWTPTXCHTW"
+					  },
+					  {
+						"type": "message",
+						"label": "臺幣整批付款預約到期1-10扣",
+						"text": "臺幣整批付款預約到期1-10扣 : BTWTPBRTATW"
+					  },
+					  {
+						"type": "message",
+						"label": "",
+						"text": ""
+					  },
+					  {
+						"type": "message",
+						"label": "",
+						"text": ""
+					  },
+					  {
+						"type": "message",
+						"label": "",
+						"text": ""
+					  },
+					  {
+						"type": "message",
+						"label": "",
+						"text": ""
+					  },
+					  {
+						"type": "message",
+						"label": "",
+						"text": ""
+					  }
+					]
+				  }
+				]
+			  }
+			});
+	
+			break;	
 
 
 
