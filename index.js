@@ -178,7 +178,7 @@ switch(event.message.type){
 				  },
 				  {
 					"text": "繳稅費相關",
-					"actions": "actions": [
+					"actions": [
 					  {
 						"type": "message",
 						"label": "臺幣單筆付款預約到期1-10扣",
