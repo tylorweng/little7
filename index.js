@@ -151,34 +151,34 @@ switch(event.message.type){
 					  },
 					  {
 						"type": "message",
-						"label": "",
-						"text": ""
+						"label": "1",
+						"text": "1"
 					  },
 					  {
 						"type": "message",
-						"label": "",
-						"text": ""
+						"label": "1",
+						"text": "1"
 					  },
 					  {
 						"type": "message",
-						"label": "",
-						"text": ""
+						"label": "1",
+						"text": "1"
 					  },
 					  {
 						"type": "message",
-						"label": "",
-						"text": ""
+						"label": "1",
+						"text": "1"
 					  },
 					  {
 						"type": "message",
-						"label": "",
-						"text": ""
+						"label": "1",
+						"text": "1"
 					  }
 					]
 				  },
 				  {
 					"text": "繳稅費相關",
-					"actions": [
+					"actions": "actions": [
 					  {
 						"type": "message",
 						"label": "臺幣單筆付款預約到期1-10扣",
@@ -196,28 +196,28 @@ switch(event.message.type){
 					  },
 					  {
 						"type": "message",
-						"label": "",
-						"text": ""
+						"label": "1",
+						"text": "1"
 					  },
 					  {
 						"type": "message",
-						"label": "",
-						"text": ""
+						"label": "1",
+						"text": "1"
 					  },
 					  {
 						"type": "message",
-						"label": "",
-						"text": ""
+						"label": "1",
+						"text": "1"
 					  },
 					  {
 						"type": "message",
-						"label": "",
-						"text": ""
+						"label": "1",
+						"text": "1"
 					  },
 					  {
 						"type": "message",
-						"label": "",
-						"text": ""
+						"label": "1",
+						"text": "1"
 					  }
 					]
 				  }
