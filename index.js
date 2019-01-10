@@ -148,16 +148,6 @@ switch(event.message.type){
 						"type": "message",
 						"label": "臺幣整批付款預約到期1-10扣",
 						"text": "臺幣整批付款預約到期1-10扣 : BTWTPBRTATW"
-					  },
-					  {
-						"type": "message",
-						"label": "1",
-						"text": "1"
-					  },
-					  {
-						"type": "message",
-						"label": "1",
-						"text": "1"
 					  }
 					]
 				  },
@@ -178,16 +168,6 @@ switch(event.message.type){
 						"type": "message",
 						"label": "臺幣整批付款預約到期1-10扣",
 						"text": "臺幣整批付款預約到期1-10扣 : BTWTPBRTATW"
-					  },
-					  {
-						"type": "message",
-						"label": "1",
-						"text": "1"
-					  },
-					  {
-						"type": "message",
-						"label": "1",
-						"text": "1"
 					  }
 					]
 				  }
