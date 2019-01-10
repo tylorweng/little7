@@ -132,11 +132,11 @@ switch(event.message.type){
 				"type": "carousel",
 				"columns": [
 				  {
-					"text": "台幣相關",
+					"text": "台幣相關_1",
 					"actions": [
 					  {
 						"type": "message",
-						"label": "臺幣單筆付款預約到期1-10扣",
+						"label": "臺幣單筆預約到期1-10扣",
 						"text": "臺幣單筆付款預約到期1-10扣 : BTWTPTRTATW"
 					  },
 					  {
@@ -146,38 +146,68 @@ switch(event.message.type){
 					  },
 					  {
 						"type": "message",
-						"label": "臺幣整批付款預約到期1-10扣",
-						"text": "臺幣整批付款預約到期1-10扣 : BTWTPBRTATW"
-					  },
-					  {
-						"type": "message",
-						"label": "臺幣整批付款預約到期1-10扣",
+						"label": "臺幣整批預約到期1-10扣",
 						"text": "臺幣整批付款預約到期1-10扣 : BTWTPBRTATW"
 					  }
 					]
 				  },
 				  {
-					"text": "繳稅費相關",
+					"text": "台幣相關_2",
 					"actions": [
 					  {
 						"type": "message",
-						"label": "臺幣單筆付款預約到期1-10扣",
-						"text": "臺幣單筆付款預約到期1-10扣 : BTWTPTRTATW"
+						"label": "臺幣整批付款未明交易retry",
+						"text": "臺幣整批付款未明交易retry : BTWTPBXCHTW"
 					  },
 					  {
 						"type": "message",
-						"label": "臺幣單筆付款未明交易retry",
-						"text": "臺幣單筆付款未明交易retry : BTWTPTXCHTW"
+						"label": "產生臺幣整批交易檢核檔",
+						"text": "產生臺幣整批交易檢核檔: BTWTPCHKFTW"
 					  },
 					  {
 						"type": "message",
-						"label": "臺幣整批付款預約到期1-10扣",
-						"text": "臺幣整批付款預約到期1-10扣 : BTWTPBRTATW"
+						"label": "接收臺幣整批交易檢核結果檔",
+						"text": "接收臺幣整批交易檢核結果檔: BTWTPCHKRTW"
+					  }
+					]
+				  },
+				  {
+					"text": "台幣相關_3",
+					"actions": [
+					  {
+						"type": "message",
+						"label": "臺幣預約付款提醒通知",
+						"text": "臺幣預約付款提醒通知 : BTWTPNAPTTW"
 					  },
 					  {
 						"type": "message",
-						"label": "臺幣整批付款預約到期1-10扣",
-						"text": "臺幣整批付款預約到期1-10扣 : BTWTPBRTATW"
+						"label": "臺幣交易結果日終彙整通知",
+						"text": "臺幣交易結果日終彙整通知: BTWTPNDAYTW"
+					  },
+					  {
+						"type": "message",
+						"label": "臺幣轉帳申請過7日銷案通知",
+						"text": "臺幣轉帳申請過7日銷案通知: BTWTPNRJETW"
+					  }
+					]
+				  },
+				  {
+					"text": "台幣相關_4",
+					"actions": [
+					  {
+						"type": "message",
+						"label": "臺幣交易餘額不足轉失敗通知",
+						"text": "臺幣交易餘額不足轉失敗通知 : BTWTPNFAITW"
+					  },
+					  {
+						"type": "message",
+						"label": "臺幣交易人工重送處理",
+						"text": "臺幣交易人工重送處理: BTWTPRESNTW"
+					  },
+					  {
+						"type": "message",
+						"label": "臺幣整批交易異常未明retry",
+						"text": "臺幣整批交易異常未明retry: BTWTPRTRYTW"
 					  }
 					]
 				  }
