@@ -119,6 +119,60 @@ switch(event.message.type){
 			break;	
 		
 
+		case '批次作業':
+		
+		return event.reply(
+			message = {
+			"type": "template",
+			"altText": "請查看手機",
+			"template": {
+				"type": "carousel",
+				"columns": [
+				  {
+					"text": "請點選想查詢之批次",
+					"actions": [
+					  {
+						"type": "message",
+						"label": "台幣相關批次",
+						"text": "台幣相關批次"
+					  },
+					  {
+						"type": "message",
+						"label": "繳稅費相關批次",
+						"text": "繳稅費相關批次"
+					  },
+					  {
+						"type": "message",
+						"label": "XXX",
+						"text": "XXX"
+					  }
+					]
+				  },
+				  {
+					"text": "XXX",
+					"actions": [
+					  {
+						"type": "message",
+						"label": "XX",
+						"text": "XX"
+					  },
+					  {
+						"type": "message",
+						"label": "XX",
+						"text": "X"
+					  },
+					  {
+						"type": "message",
+						"label": "X",
+						"text": "X"
+					  }
+					]
+				  }
+				]
+			  }
+			});
+	
+			break;	
 
 
 
