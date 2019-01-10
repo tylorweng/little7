@@ -220,7 +220,7 @@ switch(event.message.type){
 					  },
 					  {
 						"type": "message",
-						"label": "接收臺幣整批交易檢核結果檔",
+						"label": "接收整批交易檢核結果檔",
 						"text": "接收臺幣整批交易檢核結果檔: BTWTPCHKRTW"
 					  }
 					]
@@ -240,7 +240,7 @@ switch(event.message.type){
 					  },
 					  {
 						"type": "message",
-						"label": "臺幣轉帳申請過7日銷案通知",
+						"label": "臺幣轉帳過7日銷案通知",
 						"text": "臺幣轉帳申請過7日銷案通知: BTWTPNRJETW"
 					  }
 					]
@@ -250,7 +250,7 @@ switch(event.message.type){
 					"actions": [
 					  {
 						"type": "message",
-						"label": "臺幣交易餘額不足轉失敗通知",
+						"label": "臺幣餘額不足轉失敗通知",
 						"text": "臺幣交易餘額不足轉失敗通知 : BTWTPNFAITW"
 					  },
 					  {
