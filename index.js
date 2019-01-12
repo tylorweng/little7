@@ -163,8 +163,8 @@ switch(event.message.type){
 					  },
 					  {
 						"type": "message",
-						"label": "X",
-						"text": "X"
+						"label": "外幣相關批次",
+						"text": "外幣相關批次"
 					  }
 					]
 				  }
@@ -501,7 +501,7 @@ switch(event.message.type){
 			break;	
 
 
-	case '相關批次':
+	case '外幣相關批次':
 		
 		return event.reply(
 			message = {
@@ -511,82 +511,142 @@ switch(event.message.type){
 				"type": "carousel",
 				"columns": [
 				  {
-					"text": "相關_1",
+					"text": "外幣相關_1",
 					"actions": [
 					  {
 						"type": "message",
-						"label": "",
-						"text": " : "
+						"label": "外幣單筆轉帳匯款預約到期(1~8扣)",
+						"text": "外幣單筆轉帳匯款預約到期(1~8扣) : BTWFPFRTATW"
 					  },
 					  {
 						"type": "message",
-						"label": "",
-						"text": ": "
+						"label": "外幣單筆轉帳匯款未明交易Retry",
+						"text": "外幣單筆轉帳匯款未明交易Retry : BTWFPFRRETW"
 					  },
 					  {
 						"type": "message",
-						"label": "",
-						"text": ": "
+						"label": "外幣單筆轉帳匯款原幣交易3扣",
+						"text": "外幣單筆轉帳匯款原幣交易3扣 : BTWFPFRTBTW"
 					  }
 					]
 				  },
 				  {
-					"text": "相關_2",
+					"text": "外幣相關_2",
 					"actions": [
 					  {
 						"type": "message",
-						"label": "",
-						"text": " : "
+						"label": "外幣整批付款預約到期(1~10扣)",
+						"text": "外幣整批付款預約到期(1~10扣) : BTWFPFBTPTW"
 					  },
 					  {
 						"type": "message",
-						"label": "",
-						"text": ": "
+						"label": "外幣整批付款未明交易Retry",
+						"text": "外幣整批付款未明交易Retry : BTWFPFBRETW"
 					  },
 					  {
 						"type": "message",
-						"label": "",
-						"text": ": "
+						"label": "接收匯出匯款交易狀態回饋檔",
+						"text": "接收匯出匯款交易狀態回饋檔 : BTWFPTTRSTW"
 					  }
 					]
 				  },
 				  {
-					"text": "相關_3",
+					"text": "外幣相關_3",
 					"actions": [
 					  {
 						"type": "message",
-						"label": "",
-						"text": " : "
+						"label": "外幣預約付款提醒通知",
+						"text": "外幣預約付款提醒通知 : BTWFPFTPNTW"
 					  },
 					  {
 						"type": "message",
-						"label": "",
-						"text": ": "
+						"label": "外幣交易結果日終彙整通知",
+						"text": "外幣交易結果日終彙整通知 : BTWFPDSMNTW"
 					  },
 					  {
 						"type": "message",
-						"label": "",
-						"text": ": "
+						"label": "產生外幣整批交易檢核檔",
+						"text": "產生外幣整批交易檢核檔 : BTWFPFBCKTW"
 					  }
 					]
 				  },
 				  {
-					"text": "相關_4",
+					"text": "外幣相關_4",
 					"actions": [
 					  {
 						"type": "message",
-						"label": "",
-						"text": " : "
+						"label": "接收外幣整批交易檢核結果檔",
+						"text": "接收外幣整批交易檢核結果檔 : BTWFPFBRSTW"
 					  },
 					  {
 						"type": "message",
-						"label": "",
-						"text": ": "
+						"label": "匯入及更新匯出受款受款人資料",
+						"text": "匯入及更新匯出受款受款人資料 : BTWFPREMITW"
 					  },
 					  {
 						"type": "message",
-						"label": "",
-						"text": ": "
+						"label": "匯入幣別檔",
+						"text": "匯入幣別檔 : BTWFPCURRTW"
+					  }
+					]
+				  },
+				  {
+					"text": "外幣相關_5",
+					"actions": [
+					  {
+						"type": "message",
+						"label": "匯入申報性質檔",
+						"text": "匯入申報性質檔 : BTWFPPTNOTW"
+					  },
+					  {
+						"type": "message",
+						"label": "匯入玉山海外聯行檔",
+						"text": "匯入玉山海外聯行檔 : BTWFPESUNTW"
+					  },
+					  {
+						"type": "message",
+						"label": "匯入外幣國別檔",
+						"text": "匯入外幣國別檔 : BTWFPCTRYTW"
+					  }
+					]
+				  },
+				  {
+					"text": "外幣相關_6",
+					"actions": [
+					  {
+						"type": "message",
+						"label": "匯入外幣銀行名稱檔",
+						"text": "匯入外幣銀行名稱檔 : BTWFPBKNATW"
+					  },
+					  {
+						"type": "message",
+						"label": "外幣交易餘額不足轉失敗通知",
+						"text": "外幣交易餘額不足轉失敗通知 : BTWFPNFAITW"
+					  },
+					  {
+						"type": "message",
+						"label": "外幣交易人工重送處理",
+						"text": "外幣交易人工重送處理 : BTWFPRESNTW"
+					  }
+					]
+				  },
+				  {
+					"text": "外幣相關_7",
+					"actions": [
+					  {
+						"type": "message",
+						"label": "外幣代收付參加行檔(RTGS)",
+						"text": "外幣代收付參加行檔(RTGS) : BTWFRRTGSTW"
+					  },
+					  {
+						"type": "message",
+						"label": "--",
+						"text": "-- : --"
+					  },
+					  {
+						"type": "message",
+						"label": "--",
+						"text": "-- : --"
 					  }
 					]
 				  }
