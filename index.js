@@ -138,13 +138,13 @@ switch(event.message.type){
 					  },
 					  {
 						"type": "message",
-						"label": "繳稅費相關批次",
-						"text": "繳稅費相關批次"
+						"label": "薪資轉帳相關批次",
+						"text": "薪資轉帳相關批次"
 					  },
 					  {
 						"type": "message",
-						"label": "XXX",
-						"text": "XXX"
+						"label": "繳稅費相關批次",
+						"text": "繳稅費相關批次"
 					  }
 					]
 				  },
@@ -273,7 +273,80 @@ switch(event.message.type){
 
 
 
-
+	case '薪資轉帳相關批次':
+			
+			return event.reply(
+				message = {
+				"type": "template",
+				"altText": "請查看手機",
+				"template": {
+					"type": "carousel",
+					"columns": [
+					  {
+						"text": "薪轉相關_1",
+						"actions": [
+						  {
+							"type": "message",
+							"label": "薪轉預約到期(1~8扣)",
+							"text": " 薪資轉帳預約到期(1~8扣) : BTWSPFRTBTW "
+						  },
+						  {
+							"type": "message",
+							"label": "薪資轉帳未明交易Retry",
+							"text": "薪資轉帳未明交易Retry : BTWSPFBRETW"
+						  },
+						  {
+							"type": "message",
+							"label": "薪轉預約付款提醒通知",
+							"text": "薪資轉帳預約付款提醒通知 : BTWSPFTPNTW"
+						  }
+						]
+					  },
+					  {
+						"text": "薪轉相關_2",
+						"actions": [
+						  {
+							"type": "message",
+							"label": "薪轉交易結果日終彙整通知",
+							"text": "薪資轉帳交易結果日終彙整通知 : BTWSPDSMNTW"
+						  },
+						  {
+							"type": "message",
+							"label": "薪轉臨櫃過7日銷案通知",
+							"text": "薪資轉帳臨櫃申請過7日銷案通知 : BTWSPNRJETW"
+						  },
+						  {
+							"type": "message",
+							"label": "產生薪資員工交易檢核檔",
+							"text": "產生薪資員工交易檢核檔 : BTWSPFBCKTW"
+						  }
+						]
+					  },
+					  {
+						"text": "薪轉相關_3",
+						"actions": [
+						  {
+							"type": "message",
+							"label": "接收薪資員工交易檢核結果檔",
+							"text": "接收薪資員工交易檢核結果檔 : BTWSPFBRSTW"
+						  },
+						  {
+							"type": "message",
+							"label": "批次查詢整批薪資單下載",
+							"text": "批次查詢整批薪資單下載 : BTWSPSADNTW"
+						  },
+						  {
+							"type": "message",
+							"label": "薪資轉帳交易人工重送處理",
+							"text": "薪資轉帳交易人工重送處理 : BTWSPRESNTW"
+						  }
+						]
+					  }
+					]
+				  }
+				});
+		
+				break;	
 
 
 
