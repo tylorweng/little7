@@ -388,13 +388,13 @@ switch(event.message.type){
 					  },
 					  {
 						"type": "message",
-						"label": "",
-						"text": ": "
+						"label": "--",
+						"text": "-- : -- "
 					  },
 					  {
 						"type": "message",
-						"label": "",
-						"text": ": "
+						"label": "--",
+						"text": "-- : -- "
 					  }
 					]
 				  }
