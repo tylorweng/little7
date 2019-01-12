@@ -158,8 +158,8 @@ switch(event.message.type){
 					  },
 					  {
 						"type": "message",
-						"label": "XX",
-						"text": "X"
+						"label": "ACH相關批次",
+						"text": "ACH相關批次"
 					  },
 					  {
 						"type": "message",
@@ -441,7 +441,60 @@ switch(event.message.type){
 			break;	
 
 
-
+	case 'ACH相關批次':
+		
+		return event.reply(
+			message = {
+			"type": "template",
+			"altText": "請查看手機",
+			"template": {
+				"type": "carousel",
+				"columns": [
+				  {
+					"text": "ACH相關_1",
+					"actions": [
+					  {
+						"type": "message",
+						"label": "ACH代付扣帳及retry",
+						"text": " ACH代付扣帳及retry : BTWACSCRETW"
+					  },
+					  {
+						"type": "message",
+						"label": "產生ACH提出",
+						"text": "產生ACH提出 : BTWACFLCRTW"
+					  },
+					  {
+						"type": "message",
+						"label": "接收ACH提回",
+						"text": "接收ACH提回 : BTWACFLBKTW"
+					  }
+					]
+				  },
+				  {
+					"text": "ACH相關_2",
+					"actions": [
+					  {
+						"type": "message",
+						"label": "ACH代付作業期前提醒通知",
+						"text": "ACH代付作業期前提醒通知 : BTWACSCPNTW"
+					  },
+					  {
+						"type": "message",
+						"label": "ACH退件通知",
+						"text": "ACH退件通知 : BTWACRTNNTW"
+					  },
+					  {
+						"type": "message",
+						"label": "ACH驗印提回檔",
+						"text": "ACH驗印提回檔 : BTWACFLRETW"
+					  }
+					]
+				  }
+				]
+			  }
+			});
+	
+			break;	
 
 
 		
