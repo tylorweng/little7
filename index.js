@@ -515,7 +515,7 @@ switch(event.message.type){
 					"actions": [
 					  {
 						"type": "message",
-						"label": "外幣單筆轉帳預約到期(1~8扣)",
+						"label": "外幣單筆預約到期(1~8扣)",
 						"text": "外幣單筆轉帳匯款預約到期(1~8扣) : BTWFPFRTATW"
 					  },
 					  {
@@ -575,13 +575,13 @@ switch(event.message.type){
 					"actions": [
 					  {
 						"type": "message",
-						"label": "接收外幣整批交易檢核結果檔",
+						"label": "接收外幣整批檢核結果檔",
 						"text": "接收外幣整批交易檢核結果檔 : BTWFPFBRSTW"
 					  },
 					  {
 						"type": "message",
-						"label": "匯入及更新匯出受款受款人資料",
-						"text": "匯入及更新匯出受款受款人資料 : BTWFPREMITW"
+						"label": "匯入更新匯出受款人資料",
+						"text": "匯入及更新匯出受款人資料 : BTWFPREMITW"
 					  },
 					  {
 						"type": "message",
