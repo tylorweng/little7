@@ -433,6 +433,26 @@ switch(event.message.type){
 						"text": "繳稅費交易結果日終彙整通知批次 : BTWTXDSMNTW"
 					  }
 					]
+				  },
+				  {
+					"text": "FXML相關批次_2",
+					"actions": [
+					  {
+						"type": "message",
+						"label": "--",
+						"text": "-- : -- "
+					  },
+					  {
+						"type": "message",
+						"label": "--",
+						"text": "-- : -- "
+					  },
+					  {
+						"type": "message",
+						"label": "--",
+						"text": "-- : -- "
+					  }
+					]
 				  }
 				]
 			  }
