@@ -327,7 +327,7 @@ switch(event.message.type){
 						"actions": [
 						  {
 							"type": "message",
-							"label": "接收薪資員工交易檢核結果檔",
+							"label": "接收員工交易檢核結果檔",
 							"text": "接收薪資員工交易檢核結果檔 : BTWSPFBRSTW"
 						  },
 						  {
