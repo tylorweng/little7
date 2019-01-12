@@ -349,7 +349,60 @@ switch(event.message.type){
 				break;	
 
 
-
+	case '繳稅費相關批次':
+		
+		return event.reply(
+			message = {
+			"type": "template",
+			"altText": "請查看手機",
+			"template": {
+				"type": "carousel",
+				"columns": [
+				  {
+					"text": "繳稅費相關_1",
+					"actions": [
+					  {
+						"type": "message",
+						"label": "繳稅費預約到期1扣批次",
+						"text": " 繳稅費預約到期1扣批次 : BTWTXFRTATW"
+					  },
+					  {
+						"type": "message",
+						"label": "繳稅費未明交易Retry批次",
+						"text": "繳稅費未明交易Retry批次 : BTWTXFRRETW"
+					  },
+					  {
+						"type": "message",
+						"label": "繳稅費交易結果日終彙整通知批次",
+						"text": "繳稅費交易結果日終彙整通知批次 : BTWTXDSMNTW"
+					  }
+					]
+				  },
+				  {
+					"text": "繳稅費相關_2",
+					"actions": [
+					  {
+						"type": "message",
+						"label": "繳稅費預約到期提醒通知批次",
+						"text": "繳稅費預約到期提醒通知批次 : BTWTXFTPNTW"
+					  },
+					  {
+						"type": "message",
+						"label": "",
+						"text": ": "
+					  },
+					  {
+						"type": "message",
+						"label": "",
+						"text": ": "
+					  }
+					]
+				  }
+				]
+			  }
+			});
+	
+			break;	
 
 
 
