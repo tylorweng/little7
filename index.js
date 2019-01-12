@@ -515,17 +515,17 @@ switch(event.message.type){
 					"actions": [
 					  {
 						"type": "message",
-						"label": "外幣單筆轉帳匯款預約到期(1~8扣)",
+						"label": "外幣單筆轉帳預約到期(1~8扣)",
 						"text": "外幣單筆轉帳匯款預約到期(1~8扣) : BTWFPFRTATW"
 					  },
 					  {
 						"type": "message",
-						"label": "外幣單筆轉帳匯款未明交易Retry",
+						"label": "外幣單筆轉帳未明交易Retry",
 						"text": "外幣單筆轉帳匯款未明交易Retry : BTWFPFRRETW"
 					  },
 					  {
 						"type": "message",
-						"label": "外幣單筆轉帳匯款原幣交易3扣",
+						"label": "外幣單筆轉帳原幣交易3扣",
 						"text": "外幣單筆轉帳匯款原幣交易3扣 : BTWFPFRTBTW"
 					  }
 					]
@@ -535,7 +535,7 @@ switch(event.message.type){
 					"actions": [
 					  {
 						"type": "message",
-						"label": "外幣整批付款預約到期(1~10扣)",
+						"label": "外幣整批預約到期(1~10扣)",
 						"text": "外幣整批付款預約到期(1~10扣) : BTWFPFBTPTW"
 					  },
 					  {
@@ -545,7 +545,7 @@ switch(event.message.type){
 					  },
 					  {
 						"type": "message",
-						"label": "接收匯出匯款交易狀態回饋檔",
+						"label": "接收匯出匯款狀態回饋檔",
 						"text": "接收匯出匯款交易狀態回饋檔 : BTWFPTTRSTW"
 					  }
 					]
@@ -620,7 +620,7 @@ switch(event.message.type){
 					  },
 					  {
 						"type": "message",
-						"label": "外幣交易餘額不足轉失敗通知",
+						"label": "外幣餘額不足轉失敗通知",
 						"text": "外幣交易餘額不足轉失敗通知 : BTWFPNFAITW"
 					  },
 					  {
