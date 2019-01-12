@@ -421,7 +421,7 @@ switch(event.message.type){
 					  {
 						"type": "message",
 						"label": "入帳Pending交易發送100400",
-						"text": "入帳Pending交易發送100400 : BTWFMRGFTTW"
+						"text": "FXML入帳Pending交易發送100400 : BTWFMRGFTTW"
 					  },
 					  {
 						"type": "message",
