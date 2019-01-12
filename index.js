@@ -405,6 +405,7 @@ switch(event.message.type){
 			break;	
 
 
+
 	case 'FXML相關批次':
 		
 		return event.reply(
@@ -429,28 +430,8 @@ switch(event.message.type){
 					  },
 					  {
 						"type": "message",
-						"label": "繳稅費交易結果日終彙整通知批次",
-						"text": "繳稅費交易結果日終彙整通知批次 : BTWTXDSMNTW"
-					  }
-					]
-				  },
-				  {
-					"text": "FXML相關批次_2",
-					"actions": [
-					  {
-						"type": "message",
 						"label": "--",
-						"text": "-- : -- "
-					  },
-					  {
-						"type": "message",
-						"label": "--",
-						"text": "-- : -- "
-					  },
-					  {
-						"type": "message",
-						"label": "--",
-						"text": "-- : -- "
+						"text": "-- : --"
 					  }
 					]
 				  }
@@ -458,8 +439,11 @@ switch(event.message.type){
 			  }
 			});
 	
-			break;	
-
+			break;			
+			
+			
+			
+			
 
 	case 'ACH相關批次':
 		
@@ -517,6 +501,104 @@ switch(event.message.type){
 			break;	
 
 
+	case '相關批次':
+		
+		return event.reply(
+			message = {
+			"type": "template",
+			"altText": "請查看手機",
+			"template": {
+				"type": "carousel",
+				"columns": [
+				  {
+					"text": "相關_1",
+					"actions": [
+					  {
+						"type": "message",
+						"label": "",
+						"text": " : "
+					  },
+					  {
+						"type": "message",
+						"label": "",
+						"text": ": "
+					  },
+					  {
+						"type": "message",
+						"label": "",
+						"text": ": "
+					  }
+					]
+				  },
+				  {
+					"text": "相關_2",
+					"actions": [
+					  {
+						"type": "message",
+						"label": "",
+						"text": " : "
+					  },
+					  {
+						"type": "message",
+						"label": "",
+						"text": ": "
+					  },
+					  {
+						"type": "message",
+						"label": "",
+						"text": ": "
+					  }
+					]
+				  },
+				  {
+					"text": "相關_3",
+					"actions": [
+					  {
+						"type": "message",
+						"label": "",
+						"text": " : "
+					  },
+					  {
+						"type": "message",
+						"label": "",
+						"text": ": "
+					  },
+					  {
+						"type": "message",
+						"label": "",
+						"text": ": "
+					  }
+					]
+				  },
+				  {
+					"text": "相關_4",
+					"actions": [
+					  {
+						"type": "message",
+						"label": "",
+						"text": " : "
+					  },
+					  {
+						"type": "message",
+						"label": "",
+						"text": ": "
+					  },
+					  {
+						"type": "message",
+						"label": "",
+						"text": ": "
+					  }
+					]
+				  }
+				]
+			  }
+			});
+	
+			break;			
+			
+			
+			
+			
 		
 
 		}
