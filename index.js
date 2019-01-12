@@ -149,12 +149,12 @@ switch(event.message.type){
 					]
 				  },
 				  {
-					"text": "XXX",
+					"text": "請點選想查詢之批次",
 					"actions": [
 					  {
 						"type": "message",
-						"label": "XX",
-						"text": "XX"
+						"label": "FXML相關批次",
+						"text": "FXML相關批次"
 					  },
 					  {
 						"type": "message",
@@ -405,7 +405,40 @@ switch(event.message.type){
 			break;	
 
 
-
+	case 'FXML相關批次':
+		
+		return event.reply(
+			message = {
+			"type": "template",
+			"altText": "請查看手機",
+			"template": {
+				"type": "carousel",
+				"columns": [
+				  {
+					"text": "FXML相關批次",
+					"actions": [
+					  {
+						"type": "message",
+						"label": "FXML入帳Pending交易發送100400",
+						"text": " FXML入帳Pending交易發送100400 : BTWFMRGFTTW"
+					  },
+					  {
+						"type": "message",
+						"label": "FXML入帳未明Retry",
+						"text": "FXML入帳未明Retry : BTWFMINRYTW"
+					  },
+					  {
+						"type": "message",
+						"label": "繳稅費交易結果日終彙整通知批次",
+						"text": "繳稅費交易結果日終彙整通知批次 : BTWTXDSMNTW"
+					  }
+					]
+				  }
+				]
+			  }
+			});
+	
+			break;	
 
 
 
