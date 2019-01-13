@@ -640,8 +640,68 @@ switch(event.message.type){
 					  },
 					  {
 						"type": "message",
-						"label": "--",
-						"text": "-- : --"
+						"label": "外幣匯入匯款解款1~10重入",
+						"text": "外幣匯入匯款解款1~10重入 : BTWTRFRTATW"
+					  },
+					  {
+						"type": "message",
+						"label": "外幣匯入匯款解款未明交易Retry",
+						"text": "外幣匯入匯款解款未明交易Retry : BTWTRFRRETW"
+					  }
+					]
+				  },
+				  {
+					"text": "外幣相關_8",
+					"actions": [
+					  {
+						"type": "message",
+						"label": "外幣匯入匯款解款結果彙整通知",
+						"text": "外幣匯入匯款解款結果彙整通知 : BTWTRDSMNTW"
+					  },
+					  {
+						"type": "message",
+						"label": "接收國外匯入匯款通知",
+						"text": "接收國外匯入匯款通知 : BTWTRNPRITW"
+					  },
+					  {
+						"type": "message",
+						"label": "接收外幣匯入匯款可解款通知",
+						"text": "接收外幣匯入匯款可解款通知 : BTWTRNSECTW"
+					  }
+					]
+				  },
+				  {
+					"text": "外幣相關_9",
+					"actions": [
+					  {
+						"type": "message",
+						"label": "接收外幣匯入匯款入帳通知",
+						"text": "接收外幣匯入匯款入帳通知 : BTWTRNTHITW"
+					  },
+					  {
+						"type": "message",
+						"label": "外幣代收付扣帳及Retry",
+						"text": "外幣代收付扣帳及Retry : BTWFRACHBTW"
+					  },
+					  {
+						"type": "message",
+						"label": "接收外幣代收付提回檔",
+						"text": "接收外幣代收付提回檔 : BTWFRRULTTW"
+					  }
+					]
+				  },
+				  {
+					"text": "外幣相關_10",
+					"actions": [
+					  {
+						"type": "message",
+						"label": "外幣代付作業期前提醒通知書",
+						"text": "外幣代付作業期前提醒通知書 : BTWFRNAPTTW"
+					  },
+					  {
+						"type": "message",
+						"label": "外幣代收付退件通知書",
+						"text": "外幣代收付退件通知書 : BTWFRRJCTTW"
 					  },
 					  {
 						"type": "message",
