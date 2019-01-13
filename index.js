@@ -705,8 +705,8 @@ switch(event.message.type){
 					  },
 					  {
 						"type": "message",
-						"label": "--",
-						"text": "-- : --"
+						"label": "外幣匯入匯款解款retryEFS",
+						"text": "外幣匯入匯款解款retryEFS : BTWRTYEFSTW"
 					  }
 					]
 				  }
