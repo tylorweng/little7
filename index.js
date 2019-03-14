@@ -716,10 +716,61 @@ switch(event.message.type){
 	
 			break;			
 			
-			
-			
-			
+		case 'Status狀態列表':
 		
+		return event.reply(
+			message = {
+			"type": "template",
+			"altText": "請查看手機",
+			"template": {
+				"type": "carousel",
+				"columns": [
+				  {
+					"text": "請點選Status",
+					"actions": [
+					  {
+						"type": "message",
+						"label": "一般性status",
+						"text": "一般性status"
+					  },
+					  {
+						"type": "message",
+						"label": "流程中status",
+						"text": "流程中status"
+					  },
+					  {
+						"type": "message",
+						"label": "交易結果status",
+						"text": "臺幣整批付款預約到期1-10扣 : BTWTPBRTATW"
+					  }
+					]
+				  },
+				  {
+					"text": "請點選Status",
+					"actions": [
+					  {
+						"type": "message",
+						"label": "客戶端放行接銀行流程status",
+						"text": "客戶端放行接銀行流程status"
+					  },
+					  {
+						"type": "message",
+						"label": "特殊交易狀待判斷status",
+						"text": "產生臺幣整批交易檢核檔: BTWTPCHKFTW"
+					  },
+					  {
+						"type": "message",
+						"label": "--",
+						"text": "--"
+					  }
+					]
+				  }
+				]
+			  }
+			});
+	
+			break;			
+	
 
 		}
 	break;
