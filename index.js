@@ -288,7 +288,7 @@ switch(event.message.type){
 						  {
 							"type": "message",
 							"label": "薪轉預約到期(1~8扣)",
-							"text": " 薪資轉帳預約到期(1~8扣) : BTWSPFRTBTW "
+							"text": " 薪資轉帳預約到期(1~8扣) : BTWSPFRTBTW ，執行時間:[每日曆日] 05:00、09:20、10:20、11:20、12:20、13:20、14:20、15:20、16:00"
 						  },
 						  {
 							"type": "message",
