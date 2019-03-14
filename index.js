@@ -1,4 +1,4 @@
-//齊齊帶你愛運動
+//GIB報你知
 
 var request = require("request");
 var cheerio = require("cheerio");
@@ -288,17 +288,17 @@ switch(event.message.type){
 						  {
 							"type": "message",
 							"label": "薪轉預約到期(1~8扣)",
-							"text": " 薪資轉帳預約到期(1~8扣) : BTWSPFRTBTW ，執行時間:[每日曆日] 05:00、09:20、10:20、11:20、12:20、13:20、14:20、15:20、16:00"
+							"text": " 薪資轉帳預約到期(1~8扣) : BTWSPFRTBTW，執行時間-->[每日曆日] 05:00、09:20、10:20、11:20、12:20、13:20、14:20、15:20、16:00"
 						  },
 						  {
 							"type": "message",
 							"label": "薪資轉帳未明交易Retry",
-							"text": "薪資轉帳未明交易Retry : BTWSPFBRETW"
+							"text": "薪資轉帳未明交易Retry : BTWSPFBRETW，執行時間-->[每日曆日] 05:20~19:20，每20分鐘"
 						  },
 						  {
 							"type": "message",
 							"label": "薪轉預約付款提醒通知",
-							"text": "薪資轉帳預約付款提醒通知 : BTWSPFTPNTW"
+							"text": "薪資轉帳預約付款提醒通知 : BTWSPFTPNTW，執行時間-->[每營業日] 9:30 執行"
 						  }
 						]
 					  },
@@ -308,17 +308,17 @@ switch(event.message.type){
 						  {
 							"type": "message",
 							"label": "薪轉交易結果日終彙整通知",
-							"text": "薪資轉帳交易結果日終彙整通知 : BTWSPDSMNTW"
+							"text": "薪資轉帳交易結果日終彙整通知 : BTWSPDSMNTW，執行時間-->[每日曆日] 17:30 執行"
 						  },
 						  {
 							"type": "message",
 							"label": "薪轉臨櫃過7日銷案通知",
-							"text": "薪資轉帳臨櫃申請過7日銷案通知 : BTWSPNRJETW"
+							"text": "薪資轉帳臨櫃申請過7日銷案通知 : BTWSPNRJETW，執行時間-->[每日曆日] 22:00 執行"
 						  },
 						  {
 							"type": "message",
 							"label": "產生薪資員工交易檢核檔",
-							"text": "產生薪資員工交易檢核檔 : BTWSPFBCKTW"
+							"text": "產生薪資員工交易檢核檔 : BTWSPFBCKTW，執行時間-->[每日曆日] 01:00、12:55 執行"
 						  }
 						]
 					  },
@@ -328,17 +328,17 @@ switch(event.message.type){
 						  {
 							"type": "message",
 							"label": "接收員工交易檢核結果檔",
-							"text": "接收薪資員工交易檢核結果檔 : BTWSPFBRSTW"
+							"text": "接收薪資員工交易檢核結果檔 : BTWSPFBRSTW，由主機檢核完成產生結果檔至FTP後帶起本批次"
 						  },
 						  {
 							"type": "message",
 							"label": "批次查詢整批薪資單下載",
-							"text": "批次查詢整批薪資單下載 : BTWSPSADNTW"
+							"text": "批次查詢整批薪資單下載 : BTWSPSADNTW，執行時間-->[每日曆日]00:00~24:00，每20分鐘"
 						  },
 						  {
 							"type": "message",
 							"label": "薪資轉帳交易人工重送處理",
-							"text": "薪資轉帳交易人工重送處理 : BTWSPRESNTW"
+							"text": "薪資轉帳交易人工重送處理 : BTWSPRESNTW，由資訊處人工執行"
 						  }
 						]
 					  }
