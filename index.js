@@ -771,7 +771,61 @@ switch(event.message.type){
 	
 			break;			
 	
-
+                 case 'help':
+		
+		return event.reply(
+			message = {
+			"type": "template",
+			"altText": "請查看手機",
+			"template": {
+				"type": "carousel",
+				"columns": [
+				  {
+					"text": "點選欲使用功能",
+					"actions": [
+					  {
+						"type": "message",
+						"label": "批次作業",
+						"text": "批次作業"
+					  },
+					  {
+						"type": "message",
+						"label": "Status狀態列表",
+						"text": "Status狀態列表"
+					  },
+					  {
+						"type": "message",
+						"label": "主機交易通路代碼",
+						"text": "主機交易通路代碼"
+					  }
+					]
+				  },
+				  {
+					"text": "點選欲使用功能",
+					"actions": [
+					  {
+						"type": "message",
+						"label": "待開發",
+						"text": "待開發"
+					  },
+					  {
+						"type": "message",
+						"label": "待開發",
+						"text": "待開發"
+					  },
+					  {
+						"type": "message",
+						"label": "待開發",
+						"text": "待開發"
+					  }
+					]
+				  }
+				]
+			  }
+			});
+	
+			break;	
+	
 		}
 	break;
 
