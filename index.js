@@ -43,7 +43,7 @@ switch(event.message.type){
 		//純文字區	
 		case '安安':
 
-			event.reply('安安 你好 幾歲 住哪??');
+			event.reply('安安 你好 幾歲 住哪呢??');
 
 			break;
 
