@@ -741,7 +741,7 @@ switch(event.message.type){
 					  {
 						"type": "message",
 						"label": "交易結果status",
-						"text": "臺幣整批付款預約到期1-10扣 : BTWTPBRTATW"
+						"text": "交易結果status"
 					  }
 					]
 				  },
@@ -756,7 +756,7 @@ switch(event.message.type){
 					  {
 						"type": "message",
 						"label": "特殊交易狀待判斷status",
-						"text": "產生臺幣整批交易檢核檔: BTWTPCHKFTW"
+						"text": "特殊交易狀待判斷status"
 					  },
 					  {
 						"type": "message",
