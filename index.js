@@ -191,17 +191,17 @@ switch(event.message.type){
 					  {
 						"type": "message",
 						"label": "臺幣單筆預約到期1-10扣",
-						"text": "臺幣單筆付款預約到期1-10扣 : BTWTPTRTATW"
+						"text": "臺幣單筆付款預約到期1-10扣 : BTWTPTRTATW ，執行時間-->[每營業日] 05:00、09:10、10:10、11:10、12:10、13:10、14:10、15:00、15:20、15:40、16:00"
 					  },
 					  {
 						"type": "message",
 						"label": "臺幣單筆付款未明交易retry",
-						"text": "臺幣單筆付款未明交易retry : BTWTPTXCHTW"
+						"text": "臺幣單筆付款未明交易retry : BTWTPTXCHTW ，執行時間-->[每營業日] 09:08~18:38，每10分鐘"
 					  },
 					  {
 						"type": "message",
 						"label": "臺幣整批預約到期1-10扣",
-						"text": "臺幣整批付款預約到期1-10扣 : BTWTPBRTATW"
+						"text": "臺幣整批付款預約到期1-10扣 : BTWTPBRTATW，執行時間-->[每營業日] 05:00、09:10、10:10、11:10、12:10、13:10、14:10、15:00、15:20、15:40、16:00"
 					  }
 					]
 				  },
@@ -211,17 +211,17 @@ switch(event.message.type){
 					  {
 						"type": "message",
 						"label": "臺幣整批付款未明交易retry",
-						"text": "臺幣整批付款未明交易retry : BTWTPBXCHTW"
+						"text": "臺幣整批付款未明交易retry : BTWTPBXCHTW，執行時間-->[每營業日] 09:08~18:38，每10分鐘"
 					  },
 					  {
 						"type": "message",
 						"label": "產生臺幣整批交易檢核檔",
-						"text": "產生臺幣整批交易檢核檔: BTWTPCHKFTW"
+						"text": "產生臺幣整批交易檢核檔: BTWTPCHKFTW，執行時間-->[每日曆日] 01:10、12:55"
 					  },
 					  {
 						"type": "message",
 						"label": "接收整批交易檢核結果檔",
-						"text": "接收臺幣整批交易檢核結果檔: BTWTPCHKRTW"
+						"text": "接收臺幣整批交易檢核結果檔: BTWTPCHKRTW，執行時間-->[每日曆日] 由主機檢核完成產生結果檔至FTP後帶起本批次"
 					  }
 					]
 				  },
@@ -231,17 +231,17 @@ switch(event.message.type){
 					  {
 						"type": "message",
 						"label": "臺幣預約付款提醒通知",
-						"text": "臺幣預約付款提醒通知 : BTWTPNAPTTW"
+						"text": "臺幣預約付款提醒通知 : BTWTPNAPTTW ，執行時間-->[每營業日] 9:30"
 					  },
 					  {
 						"type": "message",
 						"label": "臺幣交易結果日終彙整通知",
-						"text": "臺幣交易結果日終彙整通知: BTWTPNDAYTW"
+						"text": "臺幣交易結果日終彙整通知: BTWTPNDAYTW，執行時間-->[每日曆日]17:40"
 					  },
 					  {
 						"type": "message",
 						"label": "臺幣轉帳過7日銷案通知",
-						"text": "臺幣轉帳申請過7日銷案通知: BTWTPNRJETW"
+						"text": "臺幣轉帳申請過7日銷案通知: BTWTPNRJETW，執行時間-->[每日曆日]22:00"
 					  }
 					]
 				  },
@@ -251,17 +251,17 @@ switch(event.message.type){
 					  {
 						"type": "message",
 						"label": "臺幣餘額不足轉失敗通知",
-						"text": "臺幣交易餘額不足轉失敗通知 : BTWTPNFAITW"
+						"text": "臺幣交易餘額不足轉失敗通知 : BTWTPNFAITW，執行時間-->[每日曆日]17:30"
 					  },
 					  {
 						"type": "message",
 						"label": "臺幣交易人工重送處理",
-						"text": "臺幣交易人工重送處理: BTWTPRESNTW"
+						"text": "臺幣交易人工重送處理: BTWTPRESNTW，執行時間-->由資訊處手動執行"
 					  },
 					  {
 						"type": "message",
 						"label": "臺幣整批交易異常未明retry",
-						"text": "臺幣整批交易異常未明retry: BTWTPRTRYTW"
+						"text": "臺幣整批交易異常未明retry: BTWTPRTRYTW，執行時間-->由資訊處手動執行"
 					  }
 					]
 				  }
