@@ -44,6 +44,16 @@ switch(event.message.type){
 		case '安安':
 
 			event.reply('安安 你好 幾歲 住哪呢?????');
+			event.reply(
+			{
+  "type": "image",
+  "originalContentUrl": "https://www.deaventura.pe/blog/wp-content/uploads/2015/05/mancora-de-aventura.jpg",
+  "previewImageUrl": "https://www.deaventura.pe/blog/wp-content/uploads/2015/05/mancora-de-aventura.jpg",
+  "animated": false
+}
+			
+			);
+				
 
 			break;
 
