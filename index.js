@@ -1018,7 +1018,7 @@ bot.on('message', function (event) {
                                             "previewImageUrl": "https://upload.cc/i1/2019/10/10/1wNWHM.png",
                                             "animated": false
                                         }
-                                    },
+                                    }
                                 ]
                             }
                         });
