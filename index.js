@@ -956,78 +956,8 @@ bot.on('message', function (event) {
                     break;
 
 
+
                 case '批次總表':
-
-                    return event.reply(
-                        message = {
-                            "type": "template",
-                            "altText": "此裝置無法顯示",
-                            "template": {
-                                "type": "image_carousel",
-                                "columns": [
-                                    {
-                                        "imageUrl": "https://upload.cc/i1/2019/10/10/1wNWHM.png",
-                                        "action": {
-                                            "type": "image",
-                                            "originalContentUrl": "https://upload.cc/i1/2019/10/10/1wNWHM.png",
-                                            "previewImageUrl": "https://upload.cc/i1/2019/10/10/1wNWHM.png",
-                                            "animated": false
-                                        }
-                                    },
-                                    {
-                                        "imageUrl": "https://upload.cc/i1/2019/10/10/ilpJD0.png",
-                                        "action": {
-                                            "type": "image",
-                                            "originalContentUrl": "https://upload.cc/i1/2019/10/10/ilpJD0.png",
-                                            "previewImageUrl": "https://upload.cc/i1/2019/10/10/ilpJD0.png",
-                                            "animated": false
-                                        }
-                                    },
-                                    {
-                                        "imageUrl": "https://upload.cc/i1/2019/10/10/1wNWHM.png",
-                                        "action": {
-                                            "type": "image",
-                                            "originalContentUrl": "https://upload.cc/i1/2019/10/10/1wNWHM.png",
-                                            "previewImageUrl": "https://upload.cc/i1/2019/10/10/1wNWHM.png",
-                                            "animated": false
-                                        }
-                                    },
-                                    {
-                                        "imageUrl": "https://upload.cc/i1/2019/10/10/1wNWHM.png",
-                                        "action": {
-                                            "type": "image",
-                                            "originalContentUrl": "https://upload.cc/i1/2019/10/10/1wNWHM.png",
-                                            "previewImageUrl": "https://upload.cc/i1/2019/10/10/1wNWHM.png",
-                                            "animated": false
-                                        }
-                                    },
-                                    {
-                                        "imageUrl": "https://upload.cc/i1/2019/10/10/1wNWHM.png",
-                                        "action": {
-                                            "type": "image",
-                                            "originalContentUrl": "https://upload.cc/i1/2019/10/10/1wNWHM.png",
-                                            "previewImageUrl": "https://upload.cc/i1/2019/10/10/1wNWHM.png",
-                                            "animated": false
-                                        }
-                                    },
-                                    {
-                                        "imageUrl": "https://upload.cc/i1/2019/10/10/1wNWHM.png",
-                                        "action": {
-                                            "type": "image",
-                                            "originalContentUrl": "https://upload.cc/i1/2019/10/10/1wNWHM.png",
-                                            "previewImageUrl": "https://upload.cc/i1/2019/10/10/1wNWHM.png",
-                                            "animated": false
-                                        }
-                                    }
-                                ]
-                            }
-                        });
-
-                    break;
-
-
-
-                case '批次總表2':
 
                     return event.reply(
                         message = {
@@ -1041,16 +971,48 @@ bot.on('message', function (event) {
                                         "imageUrl": "https://upload.cc/i1/2019/10/10/1wNWHM.png",
                                         "action": {
                                             "type": "uri",
-                                            "label": "圖片連結",
+                                            "label": "顯示批次內容_1",
                                             "uri": "https://upload.cc/i1/2019/10/10/1wNWHM.png"
                                         }
                                     },
                                     {
-                                        "imageUrl": "https://upload.cc/i1/2019/10/10/1wNWHM.png",
+                                        "imageUrl": "https://upload.cc/i1/2019/10/10/ilpJD0.png",
                                         "action": {
-                                            "type": "message",
-                                            "label": "第二張圖",
-                                            "text": "2"
+                                            "type": "uri",
+                                            "label": "顯示批次內容_2",
+                                            "uri": "https://upload.cc/i1/2019/10/10/ilpJD0.png"
+                                        }
+                                    },
+                                    {
+                                        "imageUrl": "https://upload.cc/i1/2019/10/10/LbKdOs.png",
+                                        "action": {
+                                            "type": "uri",
+                                            "label": "顯示批次內容_3",
+                                            "uri": "https://upload.cc/i1/2019/10/10/LbKdOs.png"
+                                        }
+                                    },
+                                    {
+                                        "imageUrl": "https://upload.cc/i1/2019/10/10/EwJMum.png",
+                                        "action": {
+                                            "type": "uri",
+                                            "label": "顯示批次內容_4",
+                                            "uri": "https://upload.cc/i1/2019/10/10/EwJMum.png"
+                                        }
+                                    },
+                                    {
+                                        "imageUrl": "https://upload.cc/i1/2019/10/10/aFgsGp.png",
+                                        "action": {
+                                            "type": "uri",
+                                            "label": "顯示批次內容_5",
+                                            "uri": "https://upload.cc/i1/2019/10/10/aFgsGp.png"
+                                        }
+                                    },
+                                    {
+                                        "imageUrl": "https://upload.cc/i1/2019/10/10/9lKet5.png",
+                                        "action": {
+                                            "type": "uri",
+                                            "label": "顯示批次內容_6",
+                                            "uri": "https://upload.cc/i1/2019/10/10/9lKet5.png"
                                         }
                                     }
                                 ]
