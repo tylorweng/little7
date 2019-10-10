@@ -1027,6 +1027,44 @@ bot.on('message', function (event) {
 
 
 
+                case '批次總表2':
+
+                    return event.reply(
+                        message = {
+
+                            "type": "template",
+                            "altText": "在不支援顯示樣板的地方顯示的文字",
+                            "template": {
+                              "type": "image_carousel",
+                              "columns": [
+                                {
+                                  "imageUrl": "https://upload.cc/i1/2019/10/10/1wNWHM.png",
+                                  "action": {
+                                    "type": "message",
+                                    "label": "第一張圖",
+                                    "text": "1"
+                                  }
+                                },
+                                {
+                                  "imageUrl": "https://upload.cc/i1/2019/10/10/1wNWHM.png",
+                                  "action": {
+                                    "type": "message",
+                                    "label": "第二張圖",
+                                    "text": "2"
+                                  }
+                                }
+                              ]
+                            }
+
+
+
+                        }
+                    );
+
+                    break;
+
+
+
             }// text輸出，請寫在這上方 
             break;
 
