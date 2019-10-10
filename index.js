@@ -45,17 +45,6 @@ bot.on('message', function (event) {
 
                     event.reply('安安 你好 幾歲 住哪呢?????');
 
-                    event.reply(
-                        {
-                            "type": "image",
-                            "originalContentUrl": "https://upload.cc/i1/2019/10/10/nO4JUY.png",
-                            "previewImageUrl": "https://upload.cc/i1/2019/10/10/nO4JUY.png",
-                            "animated": false
-                          }
-
-                    );
-
-
                     break;
 
                 //存款查詢
@@ -70,8 +59,6 @@ bot.on('message', function (event) {
                 case '定存明細查詢':
                     event.reply('CTWDATDQU');
                     break;
-
-
 
 
                 case '存匯服務':
@@ -967,10 +954,80 @@ bot.on('message', function (event) {
                     );
 
                     break;
-                //以上				
 
 
-            }
+                case '批次總表':
+
+                    return event.reply(
+                        message = {
+                            "type": "template",
+                            "altText": "此裝置無法顯示",
+                            "template": {
+                                "type": "image_carousel",
+                                "columns": [
+                                    {
+                                        "imageUrl": "https://upload.cc/i1/2019/10/10/1wNWHM.png",
+                                        "action": {
+                                            "type": "image",
+                                            "originalContentUrl": "https://upload.cc/i1/2019/10/10/1wNWHM.png",
+                                            "previewImageUrl": "https://upload.cc/i1/2019/10/10/1wNWHM.png",
+                                            "animated": false
+                                        }
+                                    },
+                                    {
+                                        "imageUrl": "https://upload.cc/i1/2019/10/10/ilpJD0.png",
+                                        "action": {
+                                            "type": "image",
+                                            "originalContentUrl": "https://upload.cc/i1/2019/10/10/ilpJD0.png",
+                                            "previewImageUrl": "https://upload.cc/i1/2019/10/10/ilpJD0.png",
+                                            "animated": false
+                                        }
+                                    },
+                                    {
+                                        "imageUrl": "https://upload.cc/i1/2019/10/10/1wNWHM.png",
+                                        "action": {
+                                            "type": "image",
+                                            "originalContentUrl": "https://upload.cc/i1/2019/10/10/1wNWHM.png",
+                                            "previewImageUrl": "https://upload.cc/i1/2019/10/10/1wNWHM.png",
+                                            "animated": false
+                                        }
+                                    },
+                                    {
+                                        "imageUrl": "https://upload.cc/i1/2019/10/10/1wNWHM.png",
+                                        "action": {
+                                            "type": "image",
+                                            "originalContentUrl": "https://upload.cc/i1/2019/10/10/1wNWHM.png",
+                                            "previewImageUrl": "https://upload.cc/i1/2019/10/10/1wNWHM.png",
+                                            "animated": false
+                                        }
+                                    },
+                                    {
+                                        "imageUrl": "https://upload.cc/i1/2019/10/10/1wNWHM.png",
+                                        "action": {
+                                            "type": "image",
+                                            "originalContentUrl": "https://upload.cc/i1/2019/10/10/1wNWHM.png",
+                                            "previewImageUrl": "https://upload.cc/i1/2019/10/10/1wNWHM.png",
+                                            "animated": false
+                                        }
+                                    },
+                                    {
+                                        "imageUrl": "https://upload.cc/i1/2019/10/10/1wNWHM.png",
+                                        "action": {
+                                            "type": "image",
+                                            "originalContentUrl": "https://upload.cc/i1/2019/10/10/1wNWHM.png",
+                                            "previewImageUrl": "https://upload.cc/i1/2019/10/10/1wNWHM.png",
+                                            "animated": false
+                                        }
+                                    },
+                                ]
+                            }
+                        });
+
+                    break;
+
+
+
+            }// text輸出，請寫在這上方 
             break;
 
 
