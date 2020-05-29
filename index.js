@@ -43,10 +43,68 @@ bot.on('message', function (event) {
                 //純文字區	
                 case '安安':
 
-                    event.reply('安安 你好 幾歲 住哪呢?????');
+                    event.reply('別在安安了吧...都幾歲了');
 
                     break;
+                    
+                case '佳禾':
 
+                    event.reply('我家門前有佳禾~後面有山坡，拜託週五早點起～趕上科朝會～^_^');
+
+                    break;
+                    
+                case '欣玫':
+
+                    event.reply('煩死人了> < 不要再叫我了～我要回家帶小孩');
+
+                    break;
+                    
+                case '俊州':
+
+                    event.reply('電器王、家電王、貓飼料王、萬磁王～～現身吧！！');
+
+                    break; 
+                    
+                case '志騰':
+
+                    event.reply('HSM好了沒！！');
+
+                    break;
+                    
+                case '冠宇':
+
+                    event.reply('(︶｡︶✽)zzzZZZZ');
+
+                    break;    
+                
+                case '欣紜':
+
+                    event.reply('門清一摸三，我又碰碰胡');
+
+                    break;   
+                    
+                case '又豪':
+
+                    event.reply('開會囉～');
+
+                    break;  
+                    
+                 case '強哥':
+
+                    event.reply('我默默的在群組，誰偷偷叫我！！');
+
+                    break;  
+                    
+                  case '德安':
+
+                    event.reply('你各位～通報發了嗎！！！');
+
+                    break;  
+                  
+                  case '士浩':
+                    event.reply('是，我是！....是就早點下班><');
+                    
+                    break;
                 //存款查詢
                 case '帳戶餘額查詢':
                     event.reply('CTWDABAQU');
