@@ -105,6 +105,16 @@ bot.on('message', function (event) {
                     event.reply('是，我是！....是就早點下班><');
                     
                     break;
+                    
+                    
+                 case '崇安':
+                    event.reply('咦？');
+                    break;   
+                    
+                 case '怡君':
+                    event.reply('我好想我鵝紙...QQ');
+                    break;  
+                    
                 //存款查詢
                 case '帳戶餘額查詢':
                     event.reply('CTWDABAQU');
