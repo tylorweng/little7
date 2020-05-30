@@ -115,6 +115,14 @@ bot.on('message', function (event) {
                     event.reply('我好想我鵝紙...QQ');
                     break;  
                     
+                case '銘佐':
+                    event.reply('長官～問個問題！');
+                    break;  
+                    
+                case '楷鐘':
+                    event.reply('啊啊啊～～～ok fine');
+                    break;      
+                    
                 //存款查詢
                 case '帳戶餘額查詢':
                     event.reply('CTWDABAQU');
