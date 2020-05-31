@@ -47,9 +47,18 @@ bot.on('message', function (event) {
 
                     break;
                     
-         
+			    
+                //午餐吃什麼
 	      
-            case 'test' :   
+                 case '午餐吃什麼' :   
+                 case '中午吃什麼';
+                 case '吃什麼';
+		 case '吃甚麼';
+		 case '午餐吃甚麼';
+		 case '中午吃甚麼';
+		 case '吃什麼？';
+		 case '吃甚麼？';
+			    
 		
             return event.reply(	 
                 
@@ -85,10 +94,7 @@ bot.on('message', function (event) {
             break;	
 			    
 			    
-			    
-			    
-			    
-			    
+			    	    
 		//random 中餐選擇區	
 		case '低價位':
 			var items = Array("蛋餅","水煎包","馬祖炒麵","八方雲集","早餐店");			
