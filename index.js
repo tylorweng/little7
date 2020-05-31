@@ -41,23 +41,24 @@ bot.on('message', function (event) {
             switch (event.message.text) {
 
                 //純文字區	
-                case '安安':
+        case '安安':
 
-                    event.reply('安安你好 幾歲 住哪？');
+            event.reply('安安你好 幾歲 住哪？');
 
-                    break;
-                    
+             break;
+
+  // ----------------------------------------------------------------                  
 			    
                 //午餐吃什麼
 	      
-                 case '午餐吃什麼' :   
-                 case '中午吃什麼' :
-                 case '吃什麼':
-		 case '吃甚麼':
-		 case '午餐吃甚麼':
-		 case '中午吃甚麼':
-		 case '吃什麼？':
-		 case '吃甚麼？':
+        case '午餐吃什麼' :   
+        case '中午吃什麼' :
+        case '吃什麼':
+        case '吃甚麼':
+        case '午餐吃甚麼':
+        case '中午吃甚麼':
+        case '吃什麼？':
+        case '吃甚麼？':
 			    
 		
             return event.reply(	 
@@ -127,10 +128,82 @@ bot.on('message', function (event) {
 			"text":"幫你想好了，你今天就吃 : 「" + item + "」吧!"
 			});
 			
-			break;	 
+            break;	 
+            
+
+// ----------------------------------------------------------------                    
+			    
+	    //喝茶專區	 
+        case '喝茶':
+        case '喝茶？':	    
+		
+            return event.reply(	 
+                
+                {
+                    "type": "template",
+                    "altText": "this is a buttons template",
+                    "template": {
+                      "type": "buttons",
+                      "actions": [
+                        {
+                          "type": "message",
+                          "label": "跟美女喝茶",
+                          "text": "跟美女喝茶"
+                        },
+                        {
+                          "type": "message",
+                          "label": "喝「山焙」的茶",
+                          "text": "喝「山焙」的茶"
+                        }
+                      ],
+                      "thumbnailImageUrl": "https://www.mingpaocanada.com/healthnet/gallery_image/20200331001.jpg",
+                      "title": "請問要喝茶還是喝茶？",
+                      "text": "請選擇！！"
+                    }
+                  }
+            );
                     
+            break;	
+
+
+
+        case '跟美女喝茶':
+
+
+                return event.reply(	 
+                
+                    {
+                        "type": "image",
+                        "originalContentUrl": "https://live.staticflickr.com/8217/29023807952_99739a100d_b.jpg",
+                        "previewImageUrl": "https://live.staticflickr.com/8217/29023807952_99739a100d_b.jpg",
+                        "animated": false
+                      }
+                );
+                        
+                break;	
+
+           
+                case '喝「山焙」的茶':
+
+
+                    return event.reply(	 
                     
-        //random 笑話區	
+                        {
+                            "type": "image",
+                            "originalContentUrl": "https://scontent.ftpe12-2.fna.fbcdn.net/v/t1.0-9/95955824_517701845563400_264429222175440896_o.jpg?_nc_cat=110&_nc_sid=8024bb&_nc_ohc=yFFjWGiATzwAX_SMNSu&_nc_ht=scontent.ftpe12-2.fna&oh=0d6942a68f5be5efb39b77578241bd62&oe=5EF9A38B",
+                            "previewImageUrl": "https://scontent.ftpe12-2.fna.fbcdn.net/v/t1.0-9/95955824_517701845563400_264429222175440896_o.jpg?_nc_cat=110&_nc_sid=8024bb&_nc_ohc=yFFjWGiATzwAX_SMNSu&_nc_ht=scontent.ftpe12-2.fna&oh=0d6942a68f5be5efb39b77578241bd62&oe=5EF9A38B",
+                            "animated": false
+                          }
+                    );
+                            
+                break;		    
+		
+			    
+// ----------------------------------------------------------------
+			    
+			    
+			    
+              //random 笑話區	
 		case '笑話':
 			var items = Array(
 			"有一天，女友發一則簡訊給我:「我們還是分手吧!」 \n 我還沒來得及傷心，女友又發來一則:「對不起，發錯人了。」\n 這下我可以徹底傷心了...",
@@ -160,7 +233,7 @@ bot.on('message', function (event) {
 		            
 
                     
-          case '我難過':
+        case '我難過':
 
 			event.reply('來，導播~音樂請下: ' + 'https://www.youtube.com/watch?v=T0LfHEwEXXw');
 
@@ -179,7 +252,7 @@ bot.on('message', function (event) {
 			break;            
                     
                     
-case '日圓':
+        case '日圓':
 		case '日幣':	
 		case 'JPY':	
 
@@ -270,18 +343,7 @@ case '日圓':
 
 
 			break;
-
-			
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-       
-                    
-                    
+        
                     
                     
             }// text輸出，請寫在這上方 
