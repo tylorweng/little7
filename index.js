@@ -51,13 +51,13 @@ bot.on('message', function (event) {
                 //午餐吃什麼
 	      
                  case '午餐吃什麼' :   
-                 case '中午吃什麼';
-                 case '吃什麼';
-		 case '吃甚麼';
-		 case '午餐吃甚麼';
-		 case '中午吃甚麼';
-		 case '吃什麼？';
-		 case '吃甚麼？';
+                 case '中午吃什麼' :
+                 case '吃什麼':
+		 case '吃甚麼':
+		 case '午餐吃甚麼':
+		 case '中午吃甚麼':
+		 case '吃什麼？':
+		 case '吃甚麼？':
 			    
 		
             return event.reply(	 
