@@ -48,6 +48,47 @@ bot.on('message', function (event) {
                     break;
                     
          
+	      
+            case 'test' :   
+		
+            return event.reply(	 
+                
+                {
+                    "type": "template",
+                    "altText": "this is a buttons template",
+                    "template": {
+                      "type": "buttons",
+                      "actions": [
+                        {
+                          "type": "message",
+                          "label": "低價位",
+                          "text": "低價位"
+                        },
+                        {
+                          "type": "message",
+                          "label": "中價位",
+                          "text": "中價位"
+                        },
+                        {
+                          "type": "message",
+                          "label": "高價位",
+                          "text": "高價位"
+                        }
+                      ],
+                      "thumbnailImageUrl": "https://fastly.4sqi.net/img/general/width960/25871419_FD801fqui1PoxW2IaoNC2PZUsB_MuHNjSHvEKIs1MHE.jpg",
+                      "title": "今天想吃點什麼呢？",
+                      "text": "點選下面的價位來瞧瞧吧！"
+                    }
+                  }
+            );
+                    
+            break;	
+			    
+			    
+			    
+			    
+			    
+			    
 		//random 中餐選擇區	
 		case '低價位':
 			var items = Array("蛋餅","水煎包","馬祖炒麵","八方雲集","早餐店");			
