@@ -22,14 +22,6 @@ app.get('/', function (req, res) {
 
 app.post('/linewebhook', linebotParser);
 
-//每當server啟動，或是重build時，發送給自己的訊息
-setTimeout(function () {
-    var userId = 'U087e7ce49ad11b0bdbc68a240e6d8108';
-    var sendMsg = 'server啟動惹';
-    bot.push(userId, sendMsg);
-    console.log('send: ' + sendMsg);
-}, 5000);
-
 
 //製作回覆
 bot.on('message', function (event) {
@@ -44,6 +36,12 @@ bot.on('message', function (event) {
         case '安安':
 
             event.reply('安安你好 幾歲 住哪？');
+
+             break;
+			    
+	 case '阿齊':
+
+            event.reply('好帥');
 
              break;
 
@@ -230,27 +228,7 @@ bot.on('message', function (event) {
 			});
 		
 			break;		
-		            
 
-                    
-        case '我難過':
-
-			event.reply('來，導播~音樂請下: ' + 'https://www.youtube.com/watch?v=T0LfHEwEXXw');
-
-			break;	
-			 
-
-		//圖片區		
-		case '傻眼':
-
-			return event.reply(
-			{"type": "image",
-			"originalContentUrl": "https://i.imgur.com/Cx0v20I.png",
-			"previewImageUrl": "https://i.imgur.com/Cx0v20I.png"
-			});
-			
-			break;            
-                    
                     
         case '日圓':
 		case '日幣':	
@@ -344,8 +322,7 @@ bot.on('message', function (event) {
 
 			break;
         
-                    
-                    
+         
             }// text輸出，請寫在這上方 
             break;
 
